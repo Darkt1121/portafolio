@@ -58,14 +58,14 @@
   }
   
   /*=============== HEADER & NAV ===============*/
-  .header {
+  /* .header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     background-color: var(--black-color);
     z-index: var(--z-fixed);
-  }
+  } */
 
   .background {
     position: absolute;
