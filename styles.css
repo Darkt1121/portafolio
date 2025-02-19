@@ -31,14 +31,7 @@ header{
     z-index: -1;
 }
 
-/* nav ,
-ul , 
-.div_icon{
-    display: flex;
-    li{
 
-    }
-} */
 
 
 nav{
@@ -138,15 +131,30 @@ li:hover{
   }
   
 
+  .box_cv {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre el botón y los iconos */
+    margin-top: 20px;
+}
+
   .cv {
     background-color: #6fcf97;  
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 20px;  
+    border-radius: 10px;  
     font-size: 16px;
+    margin-right: 0;
    
   }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 0;
+}
 
 .fiverr,
 .upwork,
@@ -267,28 +275,36 @@ li:hover{
     }
 
     .soy_kevin h3 {
-        font-size: 20px;
+        font-size: 10px;
         padding: 5px;
     }
 
     .soy_kevin h1 {
         font-size: 31px;
     }
+
+    .box_cv{
+        display: inline-block;
+        margin-top: 2px;
+    }
+
+
     .cv {
-        padding: 8px 16px 10px;
+        padding: 10px 10px 10px;
         margin: 15px 90px;
         text-align: center;
         display: flex;
         font-size: 14px;
-        border: 2px solid red;
+        
     }
     .icon {
         gap: 6px;
-        text-align: center;
+        margin-top: 10px;
+        margin-left: 95px;
+       
 
     }
     .icon img {
         width: 30px;
-        height: 30px;
     }
 }
