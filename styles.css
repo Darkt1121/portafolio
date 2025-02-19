@@ -93,14 +93,8 @@ li:hover{
 }
 
 
-.box_1{
-    @media (max-width: 1024px){
-        flex-direction: column;
-    }
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-}
+
+
 
 
 .box_img img{
@@ -198,11 +192,103 @@ li:hover{
 
 
 
+.box_1{
+    @media (max-width: 1024px){
+        flex-direction: column;
+        font-size: 25px;
+    }
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+
+
+/* .soy_kevin{
+    @media (max-width:1024px){
+        font-size: 18px;
+        border: 2px solid greenyellow;
+        margin-top: 10px;
+    }
+}
 
 
 
 
 
 
+.box_img img {
+    @media (max-width:1024px) {
+         width: 17rem;
+         border: 2px solid red;
+         text-align: center;
+        
+    }
+ }
 
 
+.icon {
+    @media (max-width: 1024px){
+        border: 2px solid turquoise;
+        display: block;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .icon , .cv{
+        @media (max-width:1024px){
+            padding: 10px;
+        }
+    }
+} */
+
+
+@media (max-width: 768px) {
+    .box_1 {
+        margin: 20px;
+    }
+    .box_img  {
+
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 55px;
+    }
+
+    .box_img img {
+        width: 220px;
+    }
+    .soy_kevin{
+        margin-top: 0; 
+        padding-top: 0;
+
+    }
+
+    .soy_kevin h3 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .soy_kevin h1 {
+        font-size: 31px;
+    }
+    .cv {
+        padding: 8px 16px 10px;
+        margin: 15px 90px;
+        text-align: center;
+        display: flex;
+        font-size: 14px;
+        border: 2px solid red;
+    }
+    .icon {
+        gap: 6px;
+        text-align: center;
+
+    }
+    .icon img {
+        width: 30px;
+        height: 30px;
+    }
+}
